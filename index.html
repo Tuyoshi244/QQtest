@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>量子コンピューティングの未来</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #0066cc;
+            color: white;
+            padding: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #90EE90;
+        }
+        .hero {
+            position: relative;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(50%);
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            z-index: 1;
+        }
+        main {
+            flex-grow: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        h2 {
+            color: #0066cc;
+            font-size: 1.8rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #90EE90;
+            color: #333;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .cta-button:hover {
+            background-color: #7CFC00;
+        }
+        footer {
+            background-color: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">Quantum Future</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#applications">Applications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Quantum Computing Concept" class="hero-image">
+        <h1>量子コンピューティングの未来</h1>
+    </div>
+
+    <main>
+        <section id="about">
+            <h2>量子コンピューティングとは</h2>
+            <p>
+                量子コンピューティングは、量子力学の原理を利用して情報を処理する革新的な技術です。
+                従来のコンピューターでは解決が困難な複雑な問題を、高速かつ効率的に解決する可能性を秘めています。
+            </p>
+        </section>
+
+        <section id="applications">
+            <h2>応用分野</h2>
+            <ul>
+                <li>暗号解読と情報セキュリティ</li>
+                <li>創薬と医療技術の革新</li>
+                <li>気候変動モデリングと環境保護</li>
+                <li>金融市場分析と最適化</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>詳細を学ぶ</h2>
+            <p>
+                量子コンピューティングについてもっと知りたいですか？私たちにご連絡ください。
+            </p>
+            <a href="#" class="cta-button">お問い合わせ</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Quantum Future. All rights reserved.</p>
+    </footer>
+</body>
+</html>
